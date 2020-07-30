@@ -9,7 +9,43 @@ body {
 
 /* ---------------------------------------------------- */
 
+.osoba{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid rgb(211, 208, 208);
+	flex-direction: column;
+	margin: 15px;
+	border-radius: 1%;
+	box-shadow: 0 0 5px 0 #a5d0e9;
+}
 
-.foto{
+h1{
+	text-align: center;
+}
+
+img{
 	border-radius: 50%;
 }
+
+
+@media (min-width: 540px) {
+    .tym{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .osoba{
+        width: calc(50% - 15px - 15px); /*-15px je tam za levý a pravý margin*/
+	}
+}
+
+@media (min-width: 960px) {
+    .tym{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .osoba{
+        width: calc(25% - 15px - 15px);
+	}
+}
+

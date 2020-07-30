@@ -35,17 +35,25 @@ img{
         flex-wrap: wrap;
     }
     .osoba{
-        width: calc(50% - 15px - 15px); /*-15px je tam za levý a pravý margin*/
+		width: calc(50% - 15px - 15px); /*-15px je tam za levý a pravý margin*/
+		flex-direction: row;
+		text-align: left;
+	}
+
+	.foto{
+		margin-right: 15px;
 	}
 }
 
 @media (min-width: 960px) {
     .tym{
         display: flex;
-        flex-wrap: wrap;
+		flex-wrap: wrap;
     }
     .osoba{
-        width: calc(25% - 15px - 15px);
+		width: calc(25% - 15px - 15px);
+		flex-direction: column;
+		text-align: center;
 	}
 }
 

@@ -17,7 +17,7 @@ body {
 	flex-direction: column;
 	margin: 15px;
 	border-radius: 1%;
-	box-shadow: 0 0 5px 0 #a5d0e9;
+	box-shadow: 0 5px 4px -4px #a5d0e9;
 }
 
 h1{
